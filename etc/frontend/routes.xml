@@ -7,9 +7,9 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/App/etc/routes.xsd">
-    <router id="admin">
-        <route id="inchooadmintest" frontName="inchooadmintest">
-            <module name="Inchoo_CustomControllers" before="Magento_Backend" />
+    <router id="standard">
+        <route id="inchootestfrontend" frontName="inchoofronttest">
+            <module name="Inchoo_CustomControllers" />
         </route>
     </router>
 </config>
