@@ -1,0 +1,1 @@
+Example Magento 2 module for custom controllers demonstration.
