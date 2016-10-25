@@ -12,12 +12,12 @@
       "email": "zoransalamun@gmail.com"
     }
   ],
-  "extra": {
-    "map": [
-      [
-        "*",
-        "Inchoo/CustomControllers"
-      ]
-    ]
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Inchoo\\CustomControllers\\": ""
+    }
   }
 }
